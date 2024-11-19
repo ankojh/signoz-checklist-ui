@@ -1,0 +1,48 @@
+{
+  id: string
+  title: string 
+  description: string
+  items: Array<{
+    id: string
+    title: string 
+    description: string
+    isDone: boolean
+  }>
+}
+
+# UI elements 
+InviteUser
+InviteAdmin
+
+Synced BE:
+{
+  invite_user: inviteUserAction 
+  invite_admin: 
+  visit_docs: 
+  assign_user: 
+}
+
+ switch(action){
+  case 'invite_user':
+    return <InviteUser  />
+  case 'invite_admin':
+    return <InviteAdmin />
+  default:
+    null
+ }
+
+
+
+Checklist
+
+<ChecklistContainer 
+
+
+
+  <div absolute bottom0 right0
+    onMouse
+
+  >
+
+
+ />
